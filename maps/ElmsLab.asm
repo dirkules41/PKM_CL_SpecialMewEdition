@@ -209,7 +209,7 @@ TotodilePokeBallScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke TOTODILE, 5, BERRY
+	givepoke TOTODILE, 5, LEFTOVERS
 	special SetShinyDVs
 	closetext
 	applymovement PLAYER, AfterTotodileMovement
