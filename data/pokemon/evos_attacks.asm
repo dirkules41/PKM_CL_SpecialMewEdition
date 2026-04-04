@@ -2367,14 +2367,15 @@ TotodileEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
-	db 7, WATER_GUN
-	db 12, RAGE
-	db 21, BITE
-	db 28, SCARY_FACE
-	db 37, SLASH
-	db 45, SCREECH
-	db 50, HYDRO_PUMP
-	db 55, CRUNCH
+	db 6, WATER_GUN
+	db 9, POWDER_SNOW
+	db 12, BITE
+	db 15, ANCIENTPOWER
+	db 25, BONE_CLUB
+	db 30, SLASH
+	db 36, CRUNCH
+	db 42, EARTHQUAKE
+	db 50, OCTAZOOKA
 	db 0 ; no more level-up moves
 
 CroconawEvosAttacks:
@@ -2382,28 +2383,30 @@ CroconawEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
-	db 1, WATER_GUN
-	db 1, RAGE
-	db 21, BITE
-	db 28, SCARY_FACE
-	db 37, SLASH
-	db 45, SCREECH
-	db 50, HYDRO_PUMP
-	db 55, CRUNCH
+	db 6, WATER_GUN
+	db 9, POWDER_SNOW
+	db 12, BITE
+	db 15, ANCIENTPOWER
+	db 25, BONE_CLUB
+	db 30, SLASH
+	db 36, CRUNCH
+	db 42, EARTHQUAKE
+	db 50, OCTAZOOKA
 	db 0 ; no more level-up moves
 
 FeraligatrEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
-	db 7, WATER_GUN
-	db 12, RAGE
-	db 21, BITE
-	db 28, SCARY_FACE
-	db 37, SLASH
-	db 45, SCREECH
-	db 50, HYDRO_PUMP
-	db 55, CRUNCH
+	db 6, WATER_GUN
+	db 9, POWDER_SNOW
+	db 12, BITE
+	db 15, ANCIENTPOWER
+	db 25, BONE_CLUB
+	db 30, SLASH
+	db 36, CRUNCH
+	db 42, EARTHQUAKE
+	db 50, OCTAZOOKA
 	db 0 ; no more level-up moves
 
 SentretEvosAttacks:
