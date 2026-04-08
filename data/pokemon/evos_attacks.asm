@@ -2371,6 +2371,7 @@ TotodileEvosAttacks:
 	db 9, POWDER_SNOW
 	db 12, BITE
 	db 15, ANCIENTPOWER
+	db 20, BUBBLEBEAM
 	db 25, BONE_CLUB
 	db 30, SLASH
 	db 36, CRUNCH
@@ -2387,6 +2388,7 @@ CroconawEvosAttacks:
 	db 9, POWDER_SNOW
 	db 12, BITE
 	db 15, ANCIENTPOWER
+	db 20, BUBBLEBEAM
 	db 25, BONE_CLUB
 	db 30, SLASH
 	db 36, CRUNCH
@@ -2402,6 +2404,7 @@ FeraligatrEvosAttacks:
 	db 9, POWDER_SNOW
 	db 12, BITE
 	db 15, ANCIENTPOWER
+	db 20, BUBBLEBEAM
 	db 25, BONE_CLUB
 	db 30, SLASH
 	db 36, CRUNCH
