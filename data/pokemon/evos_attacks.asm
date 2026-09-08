@@ -2253,15 +2253,21 @@ MewtwoEvosAttacks:
 
 MewEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, POUND
+	db 1, CONFUSION
 	db 1, MIMIC
-	db 10, CONFUSION
-	db 15, ANCIENTPOWER
-	db 20, KINESIS
+	db 10, THUNDERSHOCK
+	db 11, POWDER_SNOW
+	db 15, MUD_SLAP
+	db 20, SPARK
+	db 22, ICY_WIND
 	db 25, PSYBEAM
-	db 30, FAINT_ATTACK
-	db 40, PSYCHIC_M
-	db 50, SACRED_FIRE
+	db 30, BONE_CLUB
+	db 40, THUNDERBOLT
+	db 44, ICE_BEAM
+	db 45, PSYCHIC_M
+	db 50, EARTHQUAKE
+	db 60, ZAPCANNON
+	db 66, BLIZZARD
 	db 0 ; no more level-up moves
 
 ChikoritaEvosAttacks:
