@@ -71,7 +71,7 @@ Moves:
 	move HYDRO_PUMP,   EFFECT_NORMAL_HIT,        120, WATER,         85, 10,   0
 	move SURF,         EFFECT_NORMAL_HIT,         95, WATER,        100, 15,   0
 	move ICE_BEAM,     EFFECT_FREEZE_HIT,         95, ICE,          100, 15,  10
-	move BLIZZARD,     EFFECT_FREEZE_HIT,        120, ICE,           85,  5,  10
+	move BLIZZARD,     EFFECT_FREEZE_HIT,        110, ICE,          100, 10,  10
 	move PSYBEAM,      EFFECT_CONFUSE_HIT,        65, PSYCHIC_TYPE, 100, 20,  10
 	move BUBBLEBEAM,   EFFECT_SPEED_DOWN_HIT,     65, WATER,        100, 20,  10
 	move AURORA_BEAM,  EFFECT_ATTACK_DOWN_HIT,    65, ICE,          100, 20,  10
@@ -96,16 +96,16 @@ Moves:
 	move STRING_SHOT,  EFFECT_SPEED_DOWN,          0, BUG,           95, 40,   0
 	move DRAGON_RAGE,  EFFECT_STATIC_DAMAGE,      40, DRAGON,       100, 20,   0
 	move FIRE_SPIN,    EFFECT_TRAP_TARGET,        35, FIRE,         100, 15,   0
-	move THUNDERSHOCK, EFFECT_PARALYZE_HIT,       40, ELECTRIC,     100, 30,  10
+	move THUNDERSHOCK, EFFECT_PARALYZE_HIT,       40, ELECTRIC,     100, 25,  10
 	move THUNDERBOLT,  EFFECT_PARALYZE_HIT,       95, ELECTRIC,     100, 15,  10
 	move THUNDER_WAVE, EFFECT_PARALYZE,            0, ELECTRIC,     100, 20,   0
 	move THUNDER,      EFFECT_THUNDER,           120, ELECTRIC,      70, 10,  30
 	move ROCK_THROW,   EFFECT_NORMAL_HIT,         50, ROCK,          95, 25,   0
-	move EARTHQUAKE,   EFFECT_EARTHQUAKE,        100, GROUND,       100, 10,   0
+	move EARTHQUAKE,   EFFECT_ALWAYS_HIT,        100, GROUND,       100, 10,   0
 	move FISSURE,      EFFECT_OHKO,                1, GROUND,        30,  5,   0
 	move DIG,          EFFECT_FLY,                70, GROUND,       100, 20,   0
 	move TOXIC,        EFFECT_TOXIC,               0, POISON,        85, 10,   0
-	move CONFUSION,    EFFECT_CONFUSE_HIT,        50, PSYCHIC_TYPE, 100, 25,  10
+	move CONFUSION,    EFFECT_CONFUSE_HIT,        40, PSYCHIC_TYPE, 100, 25,  10
 	move PSYCHIC_M,    EFFECT_SP_DEF_DOWN_HIT,    90, PSYCHIC_TYPE, 100, 15,  10
 	move HYPNOSIS,     EFFECT_SLEEP,               0, PSYCHIC_TYPE,  60, 20,   0
 	move MEDITATE,     EFFECT_ATTACK_UP,           0, PSYCHIC_TYPE, 100, 40,   0
@@ -137,7 +137,7 @@ Moves:
 	move LICK,         EFFECT_PARALYZE_HIT,       30, GHOST,        100, 30,  30
 	move SMOG,         EFFECT_POISON_HIT,         25, POISON,       100, 20,  40
 	move SLUDGE,       EFFECT_POISON_HIT,         65, POISON,       100, 20,  30
-	move BONE_CLUB,    EFFECT_FLINCH_HIT,         65, GROUND,       100, 20,  10
+	move BONE_CLUB,    EFFECT_FLINCH_HIT,         65, GROUND,       100, 20,  20
 	move FIRE_BLAST,   EFFECT_BURN_HIT,          120, FIRE,          85,  5,  10
 	move WATERFALL,    EFFECT_FLINCH_HIT,         70, WATER,        100, 15,  30
 	move CLAMP,        EFFECT_TRAP_TARGET,        35, WATER,        100, 10,   0
@@ -201,14 +201,14 @@ Moves:
 	move SWEET_KISS,   EFFECT_CONFUSE,             0, NORMAL,        75, 10,   0
 	move BELLY_DRUM,   EFFECT_BELLY_DRUM,          0, NORMAL,       100, 10,   0
 	move SLUDGE_BOMB,  EFFECT_POISON_HIT,         90, POISON,       100, 15,  30
-	move MUD_SLAP,     EFFECT_ACCURACY_DOWN_HIT,  20, GROUND,       100, 15, 100
+	move MUD_SLAP,     EFFECT_ACCURACY_DOWN_HIT,  40, GROUND,       100, 20,  20
 	move OCTAZOOKA,    EFFECT_ACCURACY_DOWN_HIT, 100, WATER,        100, 10,  50
 	move SPIKES,       EFFECT_SPIKES,              0, GROUND,       100, 20,   0
-	move ZAP_CANNON,   EFFECT_PARALYZE_HIT,      100, ELECTRIC,      50,  5, 100
+	move ZAP_CANNON,   EFFECT_PARALYZE_HIT,      110, ELECTRIC,     100, 10,  20
 	move FORESIGHT,    EFFECT_FORESIGHT,           0, NORMAL,       100, 40,   0
 	move DESTINY_BOND, EFFECT_DESTINY_BOND,        0, GHOST,        100,  5,   0
 	move PERISH_SONG,  EFFECT_PERISH_SONG,         0, NORMAL,       100,  5,   0
-	move ICY_WIND,     EFFECT_SPEED_DOWN_HIT,     65, ICE,          100, 20, 100
+	move ICY_WIND,     EFFECT_ACCURACY_DOWN_HIT,  65, ICE,          100, 20,  50
 	move DETECT,       EFFECT_PROTECT,             0, FIGHTING,     100,  5,   0
 	move BONE_RUSH,    EFFECT_MULTI_HIT,          25, GROUND,       100, 20,   0
 	move LOCK_ON,      EFFECT_LOCK_ON,             0, NORMAL,       100,  5,   0
