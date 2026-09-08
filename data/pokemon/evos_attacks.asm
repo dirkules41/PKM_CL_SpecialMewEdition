@@ -2266,7 +2266,7 @@ MewEvosAttacks:
 	db 44, ICE_BEAM
 	db 45, PSYCHIC_M
 	db 50, EARTHQUAKE
-	db 60, ZAPCANNON
+	db 60, ZAP_CANNON
 	db 66, BLIZZARD
 	db 0 ; no more level-up moves
 
