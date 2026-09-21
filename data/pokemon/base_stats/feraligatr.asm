@@ -1,6 +1,6 @@
 	db FERALIGATR ; 160
 
-	db  95, 105,  70, 100,  90,  70
+	db  85, 105, 100,  78,  79,  83
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, WATER ; type
@@ -13,7 +13,7 @@
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/feraligatr/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
-	db GROWTH_SLOW ; growth rate
+	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_WATER_1 ; egg groups
 
 	; tm/hm learnset
