@@ -204,7 +204,7 @@ Moves:
 	move MUD_SLAP,     EFFECT_ACCURACY_DOWN_HIT,  20, GROUND,       100, 15, 100
 	move OCTAZOOKA,    EFFECT_ACCURACY_DOWN_HIT,  65, WATER,        100, 15,  50
 	move SPIKES,       EFFECT_SPIKES,              0, GROUND,       100, 20,   0
-	move ZAP_CANNON,   EFFECT_PARALYZE_HIT,      100, ELECTRIC,      50,  5, 100
+	move ZAP_CANNON,   EFFECT_PARALYZE_HIT,      100, ELECTRIC,      95, 10,  30
 	move FORESIGHT,    EFFECT_FORESIGHT,           0, NORMAL,       100, 40,   0
 	move DESTINY_BOND, EFFECT_DESTINY_BOND,        0, GHOST,        100,  5,   0
 	move PERISH_SONG,  EFFECT_PERISH_SONG,         0, NORMAL,       100,  5,   0
