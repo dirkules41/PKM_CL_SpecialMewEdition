@@ -253,8 +253,8 @@ BattleAnimations::
 	dw BattleAnim_RockSmash
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_BeatUp
+	dw BattleAnim_AuraSphere
 	assert_table_length NUM_ATTACKS + 1
-	dw BattleAnim_252
 	dw BattleAnim_253
 	dw BattleAnim_254
 	dw BattleAnim_SweetScent2
@@ -4825,4 +4825,18 @@ BattleAnim_ShowMon_1:
 	anim_wait 4
 	anim_incobj 1
 	anim_wait 1
+	anim_ret
+
+BattleAnim_AuraSphere:
+	anim_2gfx ANIM_GFX_GLOBE, ANIM_GFX_HIT
+	anim_bgp $1b
+	anim_bgeffect ANIM_BG_SHAKE_SCREEN_Y, $10, $1, $20
+	anim_sound 0, 0, SFX_STRENGTH
+	anim_obj ANIM_OBJ_SEISMIC_TOSS, 64, 104, $1
+	anim_wait 128
+	anim_incobj 1
+	anim_wait 20
+	anim_sound 0, 1, SFX_MEGA_PUNCH
+	anim_obj ANIM_OBJ_HIT_BIG_YFIX, 132, 40, $0
+	anim_wait 16
 	anim_ret
