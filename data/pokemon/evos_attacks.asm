@@ -2253,21 +2253,12 @@ MewtwoEvosAttacks:
 
 MewEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, CONFUSION
-	db 1, MIMIC
-	db 10, THUNDERSHOCK
-	db 11, POWDER_SNOW
-	db 15, MUD_SLAP
-	db 20, SPARK
-	db 22, ICY_WIND
-	db 25, PSYBEAM
-	db 30, BONE_CLUB
-	db 40, THUNDERBOLT
-	db 44, ICE_BEAM
-	db 45, PSYCHIC_M
-	db 50, EARTHQUAKE
-	db 60, ZAP_CANNON
-	db 66, BLIZZARD
+	db 1, POUND
+	db 10, TRANSFORM
+	db 20, MEGA_PUNCH
+	db 30, METRONOME
+	db 40, PSYCHIC_M
+	db 50, ANCIENTPOWER
 	db 0 ; no more level-up moves
 
 ChikoritaEvosAttacks:
@@ -2373,16 +2364,14 @@ TotodileEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
-	db 6, WATER_GUN
-	db 9, POWDER_SNOW
-	db 12, BITE
-	db 15, ANCIENTPOWER
-	db 20, BUBBLEBEAM
-	db 25, BONE_CLUB
-	db 30, SLASH
-	db 36, CRUNCH
-	db 42, EARTHQUAKE
-	db 50, OCTAZOOKA
+	db 7, WATER_GUN
+	db 12, RAGE
+	db 21, BITE
+	db 28, SCARY_FACE
+	db 37, SLASH
+	db 45, SCREECH
+	db 50, HYDRO_PUMP
+	db 55, CRUNCH
 	db 0 ; no more level-up moves
 
 CroconawEvosAttacks:
@@ -2390,32 +2379,28 @@ CroconawEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
-	db 6, WATER_GUN
-	db 9, POWDER_SNOW
-	db 12, BITE
-	db 15, ANCIENTPOWER
-	db 20, BUBBLEBEAM
-	db 25, BONE_CLUB
-	db 30, SLASH
-	db 36, CRUNCH
-	db 42, EARTHQUAKE
-	db 50, OCTAZOOKA
+	db 1, WATER_GUN
+	db 1, RAGE
+	db 21, BITE
+	db 28, SCARY_FACE
+	db 37, SLASH
+	db 45, SCREECH
+	db 50, HYDRO_PUMP
+	db 55, CRUNCH
 	db 0 ; no more level-up moves
 
 FeraligatrEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
-	db 6, WATER_GUN
-	db 9, POWDER_SNOW
-	db 12, BITE
-	db 15, ANCIENTPOWER
-	db 20, BUBBLEBEAM
-	db 25, BONE_CLUB
-	db 30, SLASH
-	db 36, CRUNCH
-	db 42, EARTHQUAKE
-	db 50, OCTAZOOKA
+	db 7, WATER_GUN
+	db 12, RAGE
+	db 21, BITE
+	db 28, SCARY_FACE
+	db 37, SLASH
+	db 45, SCREECH
+	db 50, HYDRO_PUMP
+	db 55, CRUNCH
 	db 0 ; no more level-up moves
 
 SentretEvosAttacks:
@@ -2635,7 +2620,7 @@ IgglybuffEvosAttacks:
 	db 0 ; no more level-up moves
 
 TogepiEvosAttacks:
-	db EVOLVE_LEVEL, 10, TOGETIC
+	db EVOLVE_HAPPINESS, TR_ANYTIME, TOGETIC
 	db 0 ; no more evolutions
 	db 1, GROWL
 	db 1, CHARM
