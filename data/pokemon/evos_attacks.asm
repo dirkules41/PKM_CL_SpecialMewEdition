@@ -2254,8 +2254,8 @@ MewtwoEvosAttacks:
 MewEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
-	db 10, ANCIENTPOWER
-	db 15, CONFUSION
+	db 10, CONFUSION
+	db 15, ANCIENTPOWER
 	db 20, MACH_PUNCH
 	db 25, PSYBEAM
 	db 30, VITAL_THROW
