@@ -2258,7 +2258,7 @@ MewEvosAttacks:
 	db 15, ANCIENTPOWER
 	db 20, MACH_PUNCH
 	db 25, PSYBEAM
-	db 30, VITAL_THROW
+	db 30, FAINT_ATTACK
 	db 40, PSYCHIC_M
 	db 50, AURA_SPHERE
 	db 0 ; no more level-up moves
