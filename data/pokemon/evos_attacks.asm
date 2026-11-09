@@ -2369,7 +2369,7 @@ TotodileEvosAttacks:
 	db 7, WATER_GUN
 	db 12, RAGE
 	db 21, BITE
-	db 28, SCARY_FACE
+	db 28, BUBBLEBEAM
 	db 37, SLASH
 	db 45, SCREECH
 	db 50, HYDRO_PUMP
